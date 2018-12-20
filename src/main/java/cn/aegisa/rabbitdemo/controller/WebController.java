@@ -24,7 +24,7 @@ public class WebController {
     public Object testBuild() {
         Map<String, Object> map = new HashMap<>();
         map.put("time", LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
-        map.put("version", "111111");
+        map.put("version", "22222");
         return map;
     }
 }
